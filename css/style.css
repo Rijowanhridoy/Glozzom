@@ -1,0 +1,155 @@
+body{
+    box-sizing: border-box;
+}
+.navbar{
+    background: #000;
+}
+.navbar .nav-item{
+    padding-left: 1em;
+}
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+}
+/*--slider--*/
+.carousel-item{
+    height: 450px;
+}
+.slider-image1{
+    background: url('../image/image1.jpeg');
+    background-size: cover;
+}
+.slider-image2{
+    background: url('../image/image2.jpeg');
+    background-size: cover;
+}
+.slider-image3{
+    background: url('../image/image3.jpeg');
+    background-size: cover;
+}
+
+/*HOME ICON*/
+.home-icon .fa{
+    font-size: 50px;
+}
+.get-started{
+    position: relative;
+    background: url('../image/bg1.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+.get-started .dark-overlay{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+/*--HOME-VIDEO SECTION*/
+.home-video{
+    position: relative;
+    background: url('../image/people.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+.home-video .dark-overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.home-video .fa{
+    font-size: 50px;
+    color: red;
+}
+
+.image-gallery img{
+    min-height: 250px;
+}
+
+.footer-section{
+    background: #000;
+}
+/*--END HOME PAGE SECTION--*/
+/*--START ABOUT PAGE SECTION--*/
+.about-page-header{
+    background: url('../image/image1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.about-info-section img{
+    height: 350px;
+    width: 350px;
+}
+.icon-boxes .fa{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-section .slick-prev::before,
+.testimonial-section .slick-next::before{
+    color: #000;
+}
+/*--END ABOUT PAGE DESIGN--*/
+/*--START SERVICE PAGE DESIGN--*/
+.service-page-header{
+    background: url('../image/image2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+/*--END SERVICE PAGE DESIGN--*/
+/*--START BLOG PAGE DESIGN--*/
+.blog-page-header{
+    background: url('../image/image3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+/*--END BLOG PAGE DESIGN--*/
+.contact-page-header{
+    background: url('../image/image3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+@media(max-width:767px){
+    .navbar .nav-item{
+        padding-left: 0;
+    }
+    .get-started{
+        min-height: 320px;
+    }
+    .get-started p{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:480px){
+    .carousel-caption h2{
+        font-size: 2.5rem;
+    }
+    .carousel-caption p{
+        font-size: 1.3rem;
+    }
+    .get-started{
+        min-height: 400px;
+    }
+    .get-started p{
+        font-size: 1.3rem;
+    }
+}
